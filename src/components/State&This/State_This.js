@@ -20,10 +20,10 @@ export default class StateThis extends Component {
     return (
       <div>
         <p>
-          My name is {this.state.name} & I am {this.state.age}
-        </p>
-        <button onClick={this.handleClick}>Click Me</button>
-        <button onMouseOver={this.handleMouseOver}>Hover Me</button>
+          My name is {this.state.name} & I am {this.state.age}{" "}
+        </p>{" "}
+        <button onClick={this.handleClick}> Click Me </button>{" "}
+        <button onMouseOver={this.handleMouseOver}> Hover Me </button>{" "}
       </div>
     );
   }
