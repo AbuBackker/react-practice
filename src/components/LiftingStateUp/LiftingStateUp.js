@@ -26,7 +26,7 @@ export default class LiftingStateUp extends Component {
     const temperature = this.state.temperature;
     return (
       <fieldset>
-        <legend>Enter temperature in Celsius:</legend>
+        <legend>Enter temperature in Celsius :</legend>
         <input value={temperature} onChange={this.handleChange} />
         <BoilingVerdict celsius={parseFloat(temperature)} />
       </fieldset>
